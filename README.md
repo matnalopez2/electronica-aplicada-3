@@ -21,13 +21,13 @@ El repositorio contiene los siguientes elementos:
 
 Archivos finales que serán entregados a la cátedra al finalizar el proyecto, incluyendo el informe final realizado en Jupyter Notebook y archivos auxiliares:
 
-* **Informe.ipynb**: Archivo Jupyter Notebook con el informe del proyecto, incluyendo el desarrollo matemático y capturas de pantalla del software de simulación.
 * **Microcap**: Archivos realizados con el software Microcap, donde existen 3 proyectos:
   * `Oscilador ideal.cir`: Primera parte, con fuente de corriente ideal.
   * `Oscilador real con valores comerciales.cir`: Segunda parte, incluye la fuente espejo y componentes con valores comerciales.
   * `Oscilador real con valores medidos.cir`: Tercera parte, pendiente de actualización con componentes medidos.
 * **Mathcad**: Archivos realizados con el software Mathcad, descontinuado su avance y mantenidos solo para referencia.
 * **Recursos**: Recursos utilizados para el desarrollo del Jupyter Notebook y anotaciones como mediciones realizadas en el laboratorio.
+* `Informe.ipynb`: Archivo Jupyter Notebook con el informe del proyecto, incluyendo el desarrollo matemático y capturas de pantalla del software de simulación.
 
 #### old
 
