@@ -32,11 +32,13 @@ Archivos finales que serán entregados a la cátedra al finalizar el proyecto, i
 #### old
 
 Backup de pruebas intermedias a lo largo del desarrollo del proyecto. 
+
 `TODO`: Eliminar al finalizar el proyecto.
 
 #### Proyecto
 
 Archivos necesarios para el desarrollo en KiCad de la placa del oscilador.
+
 `En desarrollo...`
 
 ## Licencia
