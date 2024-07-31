@@ -8,7 +8,7 @@ Screen=1920,1080
 MCAPVersion=12.2.0.5
 Key ID=Demo
 NLCnt=84
-TXCnt=4
+TXCnt=3
 
 [shapedef]
 Name=Battery
@@ -417,7 +417,7 @@ Style=8192
 
 [Attr]
 ON=12,-41,CAPACITANCE
-V=100p
+V=111.666p
 Style=8192
 
 [Attr]
@@ -489,7 +489,7 @@ Style=8192
 
 [Attr]
 ON=-53,26,CAPACITANCE
-V=100p
+V=111.666p
 Style=8192
 
 [Attr]
@@ -583,7 +583,6 @@ V=TO-92
 Name=NPN
 Px=520,392
 COff=8,520,392,62,3
-COff=8,544,368,15,3
 
 [Attr]
 ON=29,-8,PART
@@ -602,7 +601,7 @@ V=TO-92
 Name=NPN
 Px=472,416
 COff=8,472,416,-27,19
-COff=8,496,392,-30,-23
+COff=8,496,392,-2,-32
 
 [Attr]
 ON=27,-7,PART
@@ -733,7 +732,7 @@ Style=8192
 
 [Attr]
 ON=13,21,CAPACITANCE
-V=680p
+V=663.146p
 Style=8192
 
 [Attr]
@@ -752,7 +751,7 @@ Style=8192
 
 [Attr]
 ON=-50,-21,CAPACITANCE
-V=2.7n
+V=2.653n
 Style=8192
 
 [Attr]
@@ -791,7 +790,7 @@ Style=8192
 
 [Attr]
 ON=-35,-42,RESISTANCE
-V=2.28k
+V=2262
 Style=8192
 
 [Attr]
@@ -867,14 +866,6 @@ CBorder=None
 [Grid Text]
 Text="Vsal"
 Px=888,296
-GridSnap=True
-JustifyH=Left
-JustifyV=Bottom
-CBorder=None
-
-[Grid Text]
-Text="Vcol"
-Px=832,216
 GridSnap=True
 JustifyH=Left
 JustifyV=Bottom
@@ -1076,9 +1067,9 @@ PrinterScale=1
 Scale 0=1
 Scale 1=1
 Scale 2=1
-SB 3=259,117
+SB 3=259,112
 Scale 3=0.5
-Px=855,215
+Px=400,380
 WinBackGround Color=#FFFFFF
 Select Color=#FF0000
 Anchor Color=#000000
@@ -1544,7 +1535,7 @@ FFT_IncludeDCHarmonic=False
 FFT_AutoScale_Harmonics="10"
 PrinterAutoTile=No
 PrinterBlackBorder=No
-MonMaxShow=4
+MonMaxShow=3
 MonPageWidth=66
 MonPlotWidth=21
 MonExprXWidth=142
@@ -2174,11 +2165,11 @@ AliasID=1
 XExp=T
 YExp=v(Vsal)
 XRng=5e-5
-YRng=16,-4
+YRng=15
 Options=LINEARX,LINEARY
 Range Grid X=1e-5
-Range Grid Y=4
-Enable=Hide
+Range Grid Y=3
+Enable=Enable
 Line Color=#0000FF
 Text Color=#0000FF
 Rainbow=False
@@ -2198,13 +2189,13 @@ Analysis=Transient
 Plt=1
 AliasID=2
 XExp=T
-YExp=v(Vcol)
+YExp=v(1)
 XRng=5e-5
-YRng=15
+YRng=18,-12
 Options=LINEARX,LINEARY
-Range Grid X=1e-5
-Range Grid Y=3
-Enable=Enable
+Range Grid X=6e-5
+Range Grid Y=6
+Enable=Hide
 Line Color=#FF0000
 Text Color=#FF0000
 Rainbow=False
@@ -2233,32 +2224,6 @@ Range Grid Y=6
 Enable=Hide
 Line Color=#008000
 Text Color=#008000
-Rainbow=False
-VFmtX=3
-VFmtY=3
-ScaleFactorX="None"
-ScaleFactorY="None"
-ScaleUnitsX="Auto"
-ScaleUnitsY="Auto"
-SFmtX=2
-SFmtY=2
-NOFmtX=3E
-NOFmtY=3E
-
-[WaveForm]
-Analysis=Transient
-Plt=1
-AliasID=4
-XExp=T
-YExp=v(1)
-XRng=5e-5
-YRng=18,-12
-Options=LINEARX,LINEARY
-Range Grid X=6e-5
-Range Grid Y=6
-Enable=Hide
-Line Color=#FF00FF
-Text Color=#FF00FF
 Rainbow=False
 VFmtX=3
 VFmtY=3

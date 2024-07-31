@@ -148,7 +148,7 @@ Name=Resistor
 Definition=Resistor
 Shape=Resistor
 Mask=6913
-Used=206
+Used=207
 memo=Resistor
 Label Offset=18,6,8,11
 PinCnt=2
@@ -227,7 +227,7 @@ Title_Block_Border=None
 Title_Block=False
 Show Nodes=False
 Show Voltages=False
-Show Current=True
+Show Current=False
 Show Power=False
 Show Condition=False
 Show Pin Connections=False
@@ -403,7 +403,7 @@ Style=8192
 
 [Attr]
 ON=12,-41,CAPACITANCE
-V=111.666p
+V=111.67p
 Style=8192
 
 [Attr]
@@ -476,7 +476,7 @@ Style=8192
 
 [Attr]
 ON=13,21,CAPACITANCE
-V=663.146p
+V=663.15p
 Style=8192
 
 [Attr]
@@ -495,7 +495,7 @@ Style=8192
 
 [Attr]
 ON=-53,26,CAPACITANCE
-V=111.666p
+V=111.67p
 Style=8192
 
 [Attr]
@@ -571,7 +571,7 @@ Style=8192
 
 [Attr]
 ON=-50,-21,CAPACITANCE
-V=2.653n
+V=2.65n
 Style=8192
 
 [Attr]
@@ -731,7 +731,7 @@ Style=8192
 
 [Attr]
 ON=-35,-42,RESISTANCE
-V=2262
+V=2.26k
 Style=8192
 
 [Attr]
@@ -769,16 +769,16 @@ Pxs=832,216,832,232
 Pxs=832,216,920,216
 
 [Grid Text]
-Text="V2out"
-Px=1024,344
+Text="Vee"
+Px=1024,312
 GridSnap=True
 JustifyH=Left
 JustifyV=Bottom
 CBorder=None
 
 [Grid Text]
-Text="V1out"
-Px=1032,232
+Text="Vcc"
+Px=1024,256
 GridSnap=True
 JustifyH=Left
 JustifyV=Bottom
@@ -998,7 +998,7 @@ Scale 1=1
 Scale 2=1
 SB 3=273,75
 Scale 3=0.5
-Px=383,395
+Px=896,432
 WinBackGround Color=#FFFFFF
 Select Color=#FF0000
 Anchor Color=#000000
