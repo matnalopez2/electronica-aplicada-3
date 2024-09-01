@@ -7,7 +7,7 @@ Shape Version=11.00
 Screen=1920,1080
 MCAPVersion=12.2.0.5
 Key ID=Demo
-NLCnt=87
+NLCnt=84
 TXCnt=4
 
 [shapedef]
@@ -109,7 +109,7 @@ Name=Ground
 Definition=Ground
 Shape=Ground
 Mask=1793
-Used=337
+Used=336
 memo=Ground
 Label Offset=0,0,0,0
 PinCnt=1
@@ -144,7 +144,7 @@ Name=Capacitor
 Definition=Capacitor
 Shape=Capacitor
 Mask=7681
-Used=76
+Used=75
 memo=Capacitor
 Label Offset=16,12,12,12
 PinCnt=2
@@ -751,7 +751,7 @@ V=C4
 Style=8192
 
 [Attr]
-ON=-34,-25,CAPACITANCE
+ON=-50,-21,CAPACITANCE
 V=2.7n
 Style=8192
 
@@ -808,7 +808,7 @@ Pxs=640,192,640,216
 Pxs=640,128,800,128
 
 [Wire]
-Pxs=640,216,736,216
+Pxs=640,216,832,216
 
 [Wire]
 Pxs=440,288,440,312
@@ -847,33 +847,6 @@ Pxs=1016,224,1016,232
 
 [Wire]
 Pxs=1016,336,1016,488
-
-[Comp]
-Name=Capacitor
-Px=736,264
-Rot=5
-
-[Attr]
-ON=12,-26,PART
-V=C20
-Style=8192
-
-[Attr]
-ON=12,-40,CAPACITANCE
-V=0p
-Style=8192
-
-[Attr]
-ON=0,0,PACKAGE
-V
-
-[Wire]
-Pxs=736,216,832,216
-
-[Comp]
-Name=Ground
-Px=736,264
-Rot=7
 
 [Grid Text]
 Text="Vee"
@@ -1081,7 +1054,7 @@ ALIGNBOTTOM=No
 
 [Section]
 Index=0
-Name="Oscilador real con capacitor variable"
+Name="Oscilador real con valores comerciales"
 Type=Main
 Enable=True
 CurrentPage 0=0
@@ -1105,7 +1078,7 @@ Scale 1=1
 Scale 2=1
 SB 3=259,117
 Scale 3=0.5
-Px=766,328
+Px=736,378
 WinBackGround Color=#FFFFFF
 Select Color=#FF0000
 Anchor Color=#000000
