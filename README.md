@@ -17,6 +17,10 @@ Este proyecto tiene como objetivo desarrollar un oscilador con par diferencial d
 
 El repositorio contiene los siguientes elementos:
 
+#### Datasheets
+
+Hojas de datos correspondiente a algunos productos utilizados para el desarrollo del proyecto.
+
 #### Entregables
 
 Archivos finales que serán entregados a la cátedra al finalizar el proyecto, incluyendo el informe final realizado en Jupyter Notebook y archivos auxiliares:
@@ -29,12 +33,6 @@ Archivos finales que serán entregados a la cátedra al finalizar el proyecto, i
 * **pcb_oscilador**: Archivos realizados con el software Kicad, para diseño del PCB.
 * **Recursos**: Recursos utilizados para el desarrollo del Jupyter Notebook y anotaciones como mediciones realizadas en el laboratorio.
 * `Informe.ipynb`: Archivo Jupyter Notebook con el informe del proyecto, incluyendo el desarrollo matemático y capturas de pantalla del software de simulación.
-
-#### Proyecto
-
-Archivos necesarios para el desarrollo en KiCad de la placa del oscilador.
-
-`En desarrollo...`
 
 ## Licencia
 
