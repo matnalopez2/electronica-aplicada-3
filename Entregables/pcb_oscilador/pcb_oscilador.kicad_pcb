@@ -1436,7 +1436,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Variable capacitor"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
