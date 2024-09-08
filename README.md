@@ -26,14 +26,9 @@ Archivos finales que serán entregados a la cátedra al finalizar el proyecto, i
   * `Oscilador real con valores comerciales.cir`: Segunda parte, incluye la fuente espejo y componentes con valores comerciales.
   * `Oscilador real con valores medidos.cir`: Tercera parte, pendiente de actualización con componentes medidos.
 * **Mathcad**: Archivos realizados con el software Mathcad, descontinuado su avance y mantenidos solo para referencia.
+* **pcb_oscilador**: Archivos realizados con el software Kicad, para diseño del PCB.
 * **Recursos**: Recursos utilizados para el desarrollo del Jupyter Notebook y anotaciones como mediciones realizadas en el laboratorio.
 * `Informe.ipynb`: Archivo Jupyter Notebook con el informe del proyecto, incluyendo el desarrollo matemático y capturas de pantalla del software de simulación.
-
-#### old
-
-Backup de pruebas intermedias a lo largo del desarrollo del proyecto. 
-
-`TODO`: Eliminar al finalizar el proyecto.
 
 #### Proyecto
 
