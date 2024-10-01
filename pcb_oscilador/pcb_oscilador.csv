@@ -1,0 +1,17 @@
+"Id";"Identificador";"Huella";"Cantidad";"Identificación";"Suministrador y ref";
+1;"L1";"L_Radial_D13.5mm_P7.00mm_Fastron_09HCP";1;"300n";;;
+2;"C3,C4";"C_Disc_D7.5mm_W5.0mm_P5.00mm";2;"0.01u";;;
+3;"J4";"B6252H5NPP3G50";1;"Conn_Coaxial";;;
+4;"J2,J1";"TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal";2;"Screw_Terminal_01x02";;;
+5;"C9";"CP_Radial_Tantal_D6.0mm_P5.00mm";1;"100p";;;
+6;"C11";"C_Disc_D7.5mm_W5.0mm_P5.00mm";1;"680p";;;
+7;"C1,C2";"C_Disc_D7.5mm_W5.0mm_P5.00mm";2;"0.1u";;;
+8;"C8,C7";"C_Disc_D7.5mm_W5.0mm_P5.00mm";2;"100p";;;
+9;"Q1,Q2,Q4,Q3";"TO-92_Wide";4;"2N3904";;;
+10;"RE1,RE2";"R_Axial_DIN0411_L9.9mm_D3.6mm_P12.70mm_Horizontal";2;"330";;;
+11;"R1,R2";"R_Axial_DIN0411_L9.9mm_D3.6mm_P12.70mm_Horizontal";2;"1k";;;
+12;"JP1";"PinHeader_1x02_P2.54mm_Vertical";1;"Jumper_2_Open";;;
+13;"C5,C6";"C_Disc_D7.5mm_W5.0mm_P5.00mm";2;"0.001u";;;
+14;"C12";"C_Disc_D7.5mm_W5.0mm_P5.00mm";1;"2.7n";;;
+15;"C10";"C_Disc_D7.5mm_W5.0mm_P5.00mm";1;"10n";;;
+16;"Rpol1";"Potentiometer_Bourns_3266Y_Vertical";1;"1k";;;
