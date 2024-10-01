@@ -393,7 +393,7 @@ Pxs=488,312,544,312
 
 [Comp]
 Name=Capacitor
-Px=384,312
+Px=376,312
 Rot=5
 
 [Attr]
@@ -411,7 +411,7 @@ ON=0,0,PACKAGE
 V
 
 [Wire]
-Pxs=384,264,440,264
+Pxs=376,264,440,264
 
 [Wire]
 Pxs=440,264,464,264
@@ -423,7 +423,7 @@ Rot=7
 
 [Comp]
 Name=Ground
-Px=384,312
+Px=376,312
 Rot=7
 
 [Comp]
@@ -465,16 +465,16 @@ Pxs=576,216,576,240
 
 [Comp]
 Name=Capacitor
-Px=560,216
+Px=552,216
 Rot=6
 
 [Attr]
-ON=-33,12,PART
+ON=-33,-24,PART
 V=C8
 Style=8192
 
 [Attr]
-ON=-39,27,CAPACITANCE
+ON=-47,11,CAPACITANCE
 V=101.4p
 Style=8192
 
@@ -483,10 +483,10 @@ ON=0,0,PACKAGE
 V
 
 [Wire]
-Pxs=560,216,576,216
+Pxs=552,216,576,216
 
 [Wire]
-Pxs=384,216,384,264
+Pxs=376,216,376,264
 
 [Wire]
 Pxs=496,432,496,440
@@ -961,7 +961,7 @@ Pxs=776,320,776,360
 Pxs=752,320,776,320
 
 [Wire]
-Pxs=384,216,512,216
+Pxs=376,216,504,216
 
 [Grid Text]
 Text="Vee"
@@ -1169,7 +1169,7 @@ ALIGNBOTTOM=No
 
 [Section]
 Index=0
-Name="Oscilador real con capacitor variable"
+Name="Oscilador real con capacitor variable medido en FRA"
 Type=Main
 Enable=True
 CurrentPage 0=0
@@ -1193,7 +1193,7 @@ Scale 1=1
 Scale 2=1
 SB 3=302,117
 Scale 3=0.5
-Px=405,276
+Px=744,317
 WinBackGround Color=#FFFFFF
 Select Color=#FF0000
 Anchor Color=#000000
@@ -1825,7 +1825,8 @@ EndPoint=ArrowF
 CBorder=#000080
 w=0
 AliasID1=1
-Pos=-1.#IND,-1.#IND,-1.#IND,-1.#IND
+Pos=4.9975945356180443e-010,0.00393882601182193,9.3133773398716529e-008,0.00393882601182193
+Posm=0.00393882601182193
 Font=Height=-15,FStyle=0,Color=#000080,Name=Arial
 Format=3
 FormatY=3
@@ -2302,11 +2303,11 @@ AliasID=1
 XExp=T
 YExp=v(Vsal)
 XRng=5e-5
-YRng=16,-4
+YRng=4.8,-1.2
 Options=LINEARX,LINEARY
 Range Grid X=1e-5
-Range Grid Y=4
-Enable=Hide
+Range Grid Y=1.2
+Enable=Enable
 Line Color=#0000FF
 Text Color=#0000FF
 Rainbow=False
@@ -2332,7 +2333,7 @@ YRng=15
 Options=LINEARX,LINEARY
 Range Grid X=1e-5
 Range Grid Y=3
-Enable=Enable
+Enable=Hide
 Line Color=#FF0000
 Text Color=#FF0000
 Rainbow=False
